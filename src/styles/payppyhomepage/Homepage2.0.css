@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.payppy-homepage-2-main-container {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: #111111;
+}
+
+.homepage-2-header {
+  border-bottom: 1px solid #414141;
+  transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.payppy-logo-2-container {
+  padding: 0px 50px 0px 50px;
+  height: 80px;
+  width: 50%;
+}
+
+.toggler-icon-container {
+  width: 50%;
+  padding: 0px 40px 0px 40px;
+}
+
+.hamburger-react div:nth-child(2) {
+  width: 18px !important;
+  margin-left: 6px !important;
+}
+
+.payppyhomepage-header-section {
+  top: 80px;
+  left: 0;
+  z-index: -1;
+  background-color: #111111;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  max-height: calc(100vh - 80px);
+  opacity: 0;
+  transition: z-index cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s, opacity cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s, background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  overflow: hidden;
+}
+
+.payppy-header-with-height {
+  opacity: 1;
+  z-index: 4;
+  transition: z-index cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s, opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s, background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.payppy-bg-custom-primary {
+  background-color: #0057FF;
+  transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.studio-circle-arrow {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.brand-web-app-deck-box-hidden {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.brand-web-app-deck-box {
+  max-height: 19.75rem;
+  overflow: visible;
+  transition: max-height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.copytoclipboard-btn {
+  width: 24px;
+  height: 26px;
+}
+
+.text-opacity {
+  color: rgba(250, 250, 250, 0.3490196078);
+}
+
+.payppy-header-links {
+  position: relative;
+  display: inline-block;
+}
+
+.payppy-header-links::after {
+  content: "";
+  position: absolute;
+  bottom: -0.838rem;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: white;
+  z-index: 4;
+  transition: 0.25s ease;
+}
+
+.payppy-header-payppy-app-links {
+  position: relative;
+  display: inline-block;
+}
+.payppy-header-payppy-app-links:hover {
+  color: #00FF95 !important;
+}
+
+.payppy-header-payppy-app-links::after {
+  content: "";
+  position: absolute;
+  bottom: -0.838rem;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: #00FF95;
+  z-index: 4;
+  transition: 0.25s ease;
+}
+
+.payppy-header-payppy-app-links:hover::after {
+  width: 100% !important;
+}
+
+.payppy-homepage-header-footer {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.492);
+}
+
+.payppy-header-links:hover::after {
+  width: 100% !important;
+}
+
+.text-opacity.payppy-header-links:hover::after {
+  opacity: 0.4;
+}
+
+.header-bottom-logos-container {
+  border-radius: 50%;
+  padding: 0.9em;
+}
+.header-bottom-logos-container:hover {
+  background-color: rgba(255, 255, 255, 0.0980392157);
+}
+
+@media screen and (max-width: 1024px) {
+  .payppyhomepage-header-section {
+    overflow-y: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .payppy-logo-2-container {
+    padding-left: 20px;
+    height: 72px;
+  }
+  .payppy-logo-2 {
+    width: 166px;
+    max-width: none;
+  }
+  .toggler-icon-container {
+    padding: 0 20px 0 20px;
+  }
+  .toggler-icon-2 {
+    width: 24px;
+    height: 24px;
+    padding: 4px 2.63px 4px 0px;
+  }
+  .payppyhomepage-header-section {
+    top: 72px;
+    min-height: calc(100vh - 72px);
+    max-height: calc(100vh - 72px);
+    overflow: auto;
+  }
+  .studio-circle-arrow {
+    width: 26px;
+    height: 26px;
+  }
+}
+.payppy-homepage-main-section {
+  min-height: calc(100vh - 80px - 72px);
+}
+
+.homepage-top-arrow {
+  transition: 0.3s;
+}
+
+.payppy-store-img-container {
+  width: 300px;
+  max-width: none;
+}
+
+.green-gradient,
+.blue-gradient {
+  width: 82.626rem;
+  height: 37.244rem;
+  left: -32rem;
+  bottom: -18.5rem;
+  background-image: url("../../Images/payppyhomepage/green-gradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.blue-gradient {
+  background-image: url("../../Images/payppyhomepage/blue-gradient.png");
+}
+
+.payppy-app-main-outer-container {
+  border-right: 1px solid #414141;
+  overflow: hidden;
+  border-bottom: 1px solid #414141;
+  width: 50%;
+}
+.payppy-app-main-outer-container:hover .homepage-top-arrow {
+  top: 20px;
+  right: 20px;
+}
+.payppy-app-main-outer-container:hover .green-gradient, .payppy-app-main-outer-container:hover .blue-gradient {
+  opacity: 1;
+}
+.payppy-app-main-outer-container:nth-child(2) {
+  border-right: none;
+}
+
+.for-center-content {
+  z-index: 1;
+}
+
+.payppy-app-content-container {
+  max-width: 21.688rem;
+}
+
+.sensei-studio-main-outer-container {
+  border-right: none;
+  max-width: 24.938rem;
+}
+
+.learn-more-link {
+  padding: 4px 0px 4px 0px;
+  color: #E4E0DA;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.063rem;
+  border-bottom: 1px solid #E4E0DA;
+}
+
+@media screen and (max-width: 1024px) {
+  .payppy-homepage-main-section {
+    flex-direction: column-reverse !important;
+  }
+  .sensei-studio-main-outer-container,
+  .payppy-app-content-container {
+    max-width: 20rem;
+  }
+  .payppy-app-main-outer-container {
+    border-right: none;
+    width: 100%;
+  }
+  .payppy-app-main-outer-container:hover .homepage-top-arrow {
+    top: 15px;
+  }
+}
+.payppy-homepage-2-footer {
+  flex-grow: 1;
+  background: #111111;
+}
+
+.copyright-2-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #7A7A7A;
+}
+
+.footer-2-links {
+  gap: 20px;
+}
+
+.footer-2-link {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-decoration: none;
+}
+.footer-2-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  .payppy-homepage-2-footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .copyright-2-text {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  .footer-2-link {
+    font-size: 0.75rem;
+    line-height: 1.75rem;
+  }
+  .footer-2-links {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=Homepage2.0.css.map */

@@ -10,7 +10,7 @@ import '@/styles/landingpage/LandingPage.css';
 import '@/styles/Typography.css';
 
 //Images
-import Playstore from '@/Images/icons/Playstore.svg';
+import Playstore from '@/Images/icons/playstore.svg';
 import GalaxyBackground from '@/Images/becomeapartnerpage/background-asset.png';
 import StarBackground from '@/Images/landingpage/star-background.svg';
 

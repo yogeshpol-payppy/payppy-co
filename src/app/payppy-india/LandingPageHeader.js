@@ -16,7 +16,7 @@ import TextRevealComponent from "../TextRevealComponent";
 import NavigationButton from "@/components/NavigationButton";
 
 //Images
-import Playstore from '@/Images/icons/Playstore.svg';
+import Playstore from '@/Images/icons/playstore.svg';
 import Link from 'next/link';
 
 //font

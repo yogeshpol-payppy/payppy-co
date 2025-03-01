@@ -18,7 +18,7 @@ function TermsSection() {
                 {/* section 1 */}
                 <section className="px-5 pt-20 pb-10 sm:px-10 flex justify-center items-center">
                     <div className="privacy-section-content" >
-                        <h5 className="common-h5-heading mb-5" data-aos="fade-up">Welcome to our website payppy.studio</h5>
+                        <h5 className="common-h5-heading mb-5" data-aos="fade-up">Welcome to our website payppy.co</h5>
                         <p className="common-paragraph text-custom-almostblack" data-aos="fade-up">
                             Continuing to browse and use this website or our other websites payppy.co and payppy.app shall be treated as your agreement to comply with and abide by the following terms and conditions of use. These terms govern our relationship with you. It’s absolutely your personal right to go through our website and is non-transferable to any other person or entity.
                             <br /><br />
